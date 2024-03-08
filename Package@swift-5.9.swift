@@ -15,7 +15,16 @@ let package = Package(
 ..< "4.0.0")
     ],
     targets: [
-        .target(name: "SwiftOTP", dependencies: ["Crypto"], path: "SwiftOTP/", resources: [.copy("PrivacyInfo.xcprivacy")]),
+        .target(
+            name: "SwiftOTP",
+            dependencies: [
+                .product(name: "Crypto", package: "swift-crypto")
+            ],
+            path: "SwiftOTP/",
+            resources: [
+                .copy("PrivacyInfo.xcprivacy")
+            ]
+        ),
         .testTarget(name: "SwiftOTPTests", dependencies: ["SwiftOTP"])
     ]
 )
