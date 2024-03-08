@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000D36832B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000D36822B9B1D20002FAF50 /* PrivacyInfo.xcprivacy */; };
+		000D36842B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000D36822B9B1D20002FAF50 /* PrivacyInfo.xcprivacy */; };
+		000D36852B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000D36822B9B1D20002FAF50 /* PrivacyInfo.xcprivacy */; };
+		000D36862B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000D36822B9B1D20002FAF50 /* PrivacyInfo.xcprivacy */; };
 		0E2A126225D15D670014486C /* Data+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08134F25D15D3700D2DE21 /* Data+Utilities.swift */; };
 		0E2A126825D15D670014486C /* Data+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08134F25D15D3700D2DE21 /* Data+Utilities.swift */; };
 		0E2A126925D15D670014486C /* Data+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08134F25D15D3700D2DE21 /* Data+Utilities.swift */; };
@@ -60,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000D36822B9B1D20002FAF50 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0E08134F25D15D3700D2DE21 /* Data+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Utilities.swift"; sourceTree = "<group>"; };
 		0E303A7621A3A742002FB8E0 /* UInt64+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt64+Data.swift"; sourceTree = "<group>"; };
 		0E45380E215774B600B417E4 /* SwiftOTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +200,7 @@
 				0E303A7621A3A742002FB8E0 /* UInt64+Data.swift */,
 				0E5B38882008B07900A419CA /* SwiftOTP.h */,
 				0E5B38892008B07900A419CA /* Info.plist */,
+				000D36822B9B1D20002FAF50 /* PrivacyInfo.xcprivacy */,
 				0E08134F25D15D3700D2DE21 /* Data+Utilities.swift */,
 			);
 			path = SwiftOTP;
@@ -419,6 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000D36842B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000D36852B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +441,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000D36862B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000D36832B9B1D21002FAF50 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
