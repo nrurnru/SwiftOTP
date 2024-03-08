@@ -8,6 +8,7 @@ s.homepage         = 'https://github.com/lachlanbell/SwiftOTP'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'lachlanbell' => 'me@lachlanbell.com.au' }
 s.source           = { :git => 'https://github.com/lachlanbell/SwiftOTP.git', :tag => s.version.to_s }
+s.resource_bundles = { "SwiftOTP" => ["SwiftOTP/PrivacyInfo.xcprivacy"] }
 
 s.ios.deployment_target = '13.0'
 s.osx.deployment_target = '10.15'
